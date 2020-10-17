@@ -13,10 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
-      - uses: actions/cache@v1
+      - uses: actions/cache@v2
         with:
-          path: vendor/bundle
-          key: bundle-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: bundle
+          ruby-version: '2.6'
       - run: bundle install --jobs 4 --retry 3 --deployment
       - run: bundle exec rake
