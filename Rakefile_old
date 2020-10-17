@@ -1,0 +1,13 @@
+task :default => :pdf
+# puts md_files = Dir.glob("File.dirname(__FILE__)/**/*.md")
+
+md_files = ['1.md', '2.md', '3.md', '4.md']
+pdf_files = md_files.map {|f| f.sub(File.extname(f), ".pdf")}
+
+task :pdf => pdf_files
+
+rule ".pdf" => ".md" do |t|
+  puts "#{t.name} #{t.source}"
+end
+
+

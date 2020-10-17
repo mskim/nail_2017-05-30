@@ -1,0 +1,4 @@
+
+gem 'rlayout', path: '/Users/mskim/Development/ruby/gems/rlayout'
+
+# gem 'rlayout',  path=>'/lib/rlayout'

@@ -1,0 +1,79 @@
+---
+:section_name: 정치
+:section_path: "/Users/mskim/Development/pillar_layout/public/1/issue/2017-05-30/2"
+:page_heading_margin_in_lines: 3
+:heading_space: 41.70978627671484
+:ad_type: 광고없음
+:ad_box_rect:
+:is_front_page: false
+:page_columns: 7
+:grid_size:
+- 146.99662542182026
+- 97.32283464566795
+:lines_per_grid: 7.0
+:width: 1114.0157480314808
+:height: 1544.8818897637584
+:left_margin: 42.5196850393695
+:top_margin: 42.5196850393695
+:right_margin: 42.5196850393695
+:bottom_margin: 42.5196850393695
+:gutter: 12.755905511810848
+:article_line_thickness: 0.3
+:draw_divider: true
+:pillar_map:
+- :order: 1
+  :pillar_rect:
+  - 42.5196850393695
+  - 42.5196850393695
+  - 734.9831271091012
+  - 1418.1327334083046
+  :article_map:
+  - :pdf_rect:
+    - 0.0
+    - 41.70978627671484
+    - 587.986501687281
+    - 444.90438695162493
+    :pdf_path: "/1/1/story.pdf"
+  - :pdf_rect:
+    - 587.986501687281
+    - 41.70978627671484
+    - 146.99662542182026
+    - 444.90438695162493
+    :pdf_path: "/1/1/1/story.pdf"
+  - :pdf_rect:
+    - 0.0
+    - 486.6141732283398
+    - 734.9831271091012
+    - 375.38807649043355
+    :pdf_path: "/1/2/story.pdf"
+  - :pdf_rect:
+    - 0.0
+    - 862.0022497187733
+    - 734.9831271091012
+    - 486.6141732283398
+    :pdf_path: "/1/3/story.pdf"
+- :order: 2
+  :pillar_rect:
+  - 777.5028121484708
+  - 42.5196850393695
+  - 293.9932508436405
+  - 1418.1327334083046
+  :article_map:
+  - :pdf_rect:
+    - 0.0
+    - 41.70978627671484
+    - 293.9932508436405
+    - 444.90438695162493
+    :pdf_path: "/2/1/story.pdf"
+  - :pdf_rect:
+    - 0.0
+    - 486.6141732283398
+    - 293.9932508436405
+    - 305.87176602924217
+    :pdf_path: "/2/2/story.pdf"
+  - :pdf_rect:
+    - 0.0
+    - 792.485939257582
+    - 293.9932508436405
+    - 486.6141732283398
+    :pdf_path: "/2/3/story.pdf"
